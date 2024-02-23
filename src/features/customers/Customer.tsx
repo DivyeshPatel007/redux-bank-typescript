@@ -1,9 +1,8 @@
-import React from 'react'
+
 
 function Customer() {
-  return (
-    <div>Customer</div>
-  )
+  const fullName: string = "Divyesh";
+  return <h2>👋 Welcome,{fullName}</h2>;
 }
 
-export default Customer
+export default Customer;
